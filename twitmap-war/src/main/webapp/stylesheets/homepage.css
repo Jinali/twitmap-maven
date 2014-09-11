@@ -1,0 +1,111 @@
+{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#FBFBFB;
+    font-style: bold;
+}
+
+#page_title_background{
+width: 100%;
+background-color:#006600;
+height: 45px;
+}
+
+#page_title{
+font-size: 23px;
+color: #FBFBFB;
+left: 80px;
+position: absolute;
+top: -15px;
+}
+
+#twittube{
+text-decoration : none;
+margin-top:5px;
+font-family:"Comic Sans MS", "lucida grande",tahoma,verdana,arial,sans-serif;
+font-weight:bold;
+}
+
+.title_link {color:white;text-decoration:none;}
+
+
+#logout{
+
+color: #F5F5F5;
+left: 1000px;
+position: absolute;
+//margin-top:2px;
+font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+font-weight:bold;
+}
+#displayname{
+margin-top:-80px;
+margin-left:40px;
+font-family:"Comic Sans MS";
+color:#3B5998;
+}
+
+
+#form_search_tweets input[type='submit'] {
+
+                height: 30px;
+                margin-left:25px;
+                font-size:15px;
+                color:#fff;
+                border-radius: 6px;
+				background-color:#19BF19;
+                border: 1px solid
+                text-shadow: 0px -1px 0px #5b6ddc;
+        }
+
+#form_search_tweets input[type='submit']:hover {
+	        background-color:#66FF66;
+}
+
+
+#btn_record, .btn_reply{
+                height: 30px;
+                margin-left:200px;
+                font-size:15px;
+                color:#fff;
+                border-radius: 6px;
+				background-color:#19BF19;
+                border: 1px solid
+                text-shadow: 0px -1px 0px #5b6ddc;
+}
+
+.btn_reply {
+                height: 30px;
+		width: 100px;
+                margin-left:150px;
+                font-size:15px;
+                color:#fff;
+                border-radius: 6px;
+		background-color:#19BF19;
+                border: 1px solid
+                text-shadow: 0px -1px 0px #5b6ddc;
+}
+
+#btn_record:hover, .btn_reply:hover {
+	        background-color:#66FF66;
+}
+
+.msg {
+    		margin-left:50px;
+		font-size:15px;
+}
+
+#txt_topic {
+				width: 265px;
+                height: 25px;
+				margin-left: 10px;
+                font-size: 14px;
+                border: 1px solid;
+                padding-left: 5px;
+                background-clip: padding-box;
+                border-radius: 6px;
+                background-color: #fff;
+}

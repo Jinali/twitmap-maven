@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/crontweets</url>
+    <description>Search tweets and add in google app engine datastore</description>
+    <schedule>every 4 hours</schedule>
+  </cron>
+</cronentries>
